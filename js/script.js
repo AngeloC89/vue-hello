@@ -14,12 +14,12 @@ createApp({
     }
   },
   methods: {
-    color() {
-      if (myclass === 'red') {
-        myclass = 'blue';
+    colorchange(el) {
+      if (this.myclass === 'red') {
+        this.myclass = el;
 
       } else {
-        myclass = 'red';
+        this.myclass = 'red';
       }
     }
   }

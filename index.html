@@ -19,7 +19,7 @@
 <body>
 
     <div id="app">
-        <div :class="myclass" v-html="message"></div>
+        <div :class="myclass" @click="colorchange('blue')" v-html="message"></div>
 
         <img :src="image" :alt="alt">
 
