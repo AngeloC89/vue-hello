@@ -7,7 +7,7 @@ createApp({
   data() {
     return {
       message: '<h1>Hello Vue</h1>',
-      image: '/img/1.jpg',
+      image: './img/1.jpg',
       alt: 'Angela Carrol',
       myclass: 'red',
 
